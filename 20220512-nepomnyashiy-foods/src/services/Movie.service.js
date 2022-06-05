@@ -1,6 +1,6 @@
 import useHttp from "../hooks/useHttp.hook";
 
-const baseURL = "http://www.omdbapi.com/?";
+const baseURL = "https://www.omdbapi.com/?";
 const apiKey = "apikey=e1f841c2"
 
 const MovieService = () => {

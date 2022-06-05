@@ -12,7 +12,7 @@ const App = () => {
   const [movies, setMovies] = useState();
 
   const getData = (query="matrix", type="") => {
-    fetch(`http://www.omdbapi.com/?apikey=e1f841c2&s=${query}&type=${type}`)
+    fetch(`https://www.omdbapi.com/?apikey=e1f841c2&s=${query}&type=${type}`)
       .then(response => response.json())
       .then(data => setMovies(data.Search))
   }
